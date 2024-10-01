@@ -107,11 +107,11 @@
 // 8 - Crea una función que reciba un array de números y un número por parámetro e
 // imprima por consola cada número del array multiplicado por el número pasado por parámetro.
 
-function ej8(arr, num){
-    for(let i=0; i<arr.length; i++){
-        console.log('El valor original era: '+arr[i]+' y multiplicado por el numero que ingresaste es: '+arr[i]*num)
-    }
-}
-const arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-num = prompt('Ingresa un numero para multiplicar cada elemento del array:')
-ej8(arr, num)
+// function ej8(arr, num){
+//     for(let i=0; i<arr.length; i++){
+//         console.log('El valor original era: '+arr[i]+' y multiplicado por el numero que ingresaste es: '+arr[i]*num)
+//     }
+// }
+// const arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+// num = prompt('Ingresa un numero para multiplicar cada elemento del array:')
+// ej8(arr, num)
