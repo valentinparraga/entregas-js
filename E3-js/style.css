@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,9,1) 100%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;;
+}
+
+.number__input,
+.submit__btn{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.submit__btn{
+    background-color: rgb(2,0,250);
+    border: 2px solid blue;
+}
+
+.submit__btn:hover{
+    cursor: pointer;
+}
+
+.card__container{
+    background-color: rgb(2,0,250);
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+    padding: 40px 10px;
+
+    font-weight: 800;
+    color: white;
+}
+
+.feed__text{
+    color: red;
+    width: 600px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 1em;
+    font-weight: 650;
+}
+
+.hidden{
+    display: none;
+}
